@@ -16,8 +16,6 @@ Hands-on AWS security labs. Each one is documented in its own folder: the scenar
 
 Each project gets its own folder with two things: a `README.md` that walks through what was built and why, and a `screenshots` folder with the console output that backs it up.
 
-To add a new one: create a folder, drop in a README following the same shape (scenario, steps, a closing takeaway), add a row to the table above. That's it, no need to touch anything else.
-
 ## Why these five together
 
 IAM, KMS, and WAF cover three layers of the same problem: who can do what (IAM), whether the data itself is protected if access control fails (KMS), and what never reaches the app in the first place (WAF). AWS Security Agent is a different layer again, catching vulnerable code before it ships at all, rather than defending it once it's running. Hashcat flips the perspective entirely, it's the attacker's side of the same story: what happens once a hash actually leaks, and why the hashing algorithm choice made earlier in KMS-style thinking matters in practice. Posted individually these are small labs. Together they're a start on security across identity, encryption, network, code, and the attacker's own toolkit.
