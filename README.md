@@ -16,6 +16,7 @@ Hands-on AWS security labs. Each one is documented in its own folder: the scenar
 
 ## How this is organized
 
+
 Each project gets its own folder with two things: a `README.md` that walks through what was built and why, and a `screenshots` folder with the console output that backs it up.
 
 ## Why these seven together
